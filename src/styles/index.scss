@@ -1,8 +1,6 @@
+@use "reset";
+
 body {
-  background-image: radial-gradient(circle, rgba(204,204,204,0.34637605042016806) 0%, rgba(0,0,0,1) 80%), url('./Assets/fond.webp');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

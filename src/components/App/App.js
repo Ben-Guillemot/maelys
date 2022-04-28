@@ -1,15 +1,13 @@
 import React from 'react';
-import vynile from '../../Assets/Vynile.webp';
-import logo from '../../Assets/logo_maelys.webp';
-import './App.css';
+import Sidebar from '../SideBar/SideBar';
+import HomePage from '../HomePage/HomePage';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src={vynile} className="App-vynile" alt="logo" />
-      </header>
+      <Sidebar />
+      <HomePage />
     </div>
   );
 }

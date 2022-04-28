@@ -1,24 +1,25 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
+.homePage-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-vynile {
+.homePage-vynile {
   height: 15vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-vynile {
-    animation: App-logo-spin infinite 10s linear;
+  .homePage-vynile {
+    animation: homePage-logo-spin infinite 10s linear;
   }
 }
 
-.App-header {
+.homePage {
+  background-image: radial-gradient(circle, rgba(204,204,204,0.34637605042016806) 0%, rgba(0,0,0,1) 80%), url('../../Assets/fond.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,13 +27,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex: 4;
 }
 
-.App-link {
+.homePage-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes homePage-logo-spin {
   from {
     transform: rotate(0deg);
   }
