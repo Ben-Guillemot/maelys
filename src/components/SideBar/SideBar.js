@@ -1,15 +1,15 @@
 import React from 'react';
+import Header from '../Header/Header';
 import Nav from '../Nav/Nav';
 import Infos from '../Infos/Infos';
-import logo from '../../Assets/logo_maelys.webp';
 
 import './sideBar.scss';
 
 function Sidebar() {
   return (
     <div className="sidebar__container">
-      <img src={logo} className="sidebar__container-logo" alt="logo" />
-      <Nav className="sidebar__container-nav" />
+      <Header />
+      <Nav />
       <Infos />
     </div>
   );

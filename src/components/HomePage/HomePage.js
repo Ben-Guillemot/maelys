@@ -1,11 +1,15 @@
 import React from 'react';
-import vynile from '../../Assets/Vynile.webp';
+import EventFacebook from '../EventFacebook/EventFacebook';
+import photoMoto from '../../Assets/photo_moto.jpg';
 import './homepage.scss';
 
 function HomePage() {
   return (
-    <div className="homePage">
-      <img src={vynile} className="homePage-vynile" alt="logo" />
+    <div className="homePage__container">
+      <div className="homePage__container-img">
+        <img src={photoMoto} alt="moto" className="homePage-image" />
+      </div>
+      <EventFacebook />
     </div>
   );
 }

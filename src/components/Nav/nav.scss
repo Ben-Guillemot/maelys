@@ -2,6 +2,25 @@
   color: #FFF;
   display: flex;
   flex-direction: column;
-  background-color: #CCCCCC;
   min-height: 250px;
+
+  @media  screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.nav-link {
+  width: 100%;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-bottom: 2px solid #fff;
+
+  :hover {
+    font-weight: bolder;
+    font-size: 1.6rem;
+    color: #e39c29;
+    transition: all 0.3s;
+  }
 }
