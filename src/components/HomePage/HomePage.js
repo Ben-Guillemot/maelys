@@ -1,6 +1,6 @@
 import React from 'react';
 import EventFacebook from '../EventFacebook/EventFacebook';
-import photoMoto from '../../Assets/photo_moto.jpg';
+import photoMoto from '../../Assets/moto_maelys.webp';
 import './homepage.scss';
 
 function HomePage() {
