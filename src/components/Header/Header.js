@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Assets/logo_maelys.png';
+import logo from '../../Assets/logo_maelys.webp';
 import facebook from '../../Assets/logolinks/facebook.png';
 import instagram from '../../Assets/logolinks/instagram.png';
 import './header.scss';
