@@ -1,6 +1,30 @@
 .infos__container {
-  height: 400px;
-  background-color: #fff;
+  text-align: center;
+
+  &-title {
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  &-content {    
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &-list-item {
+    margin: 1rem auto;
+  }
+
+  &-tel-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &-google-map {
+    margin: 1rem auto;
+  }
 
   @media screen and (max-width:768px) {
     display:none;
