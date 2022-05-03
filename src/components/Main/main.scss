@@ -1,13 +1,21 @@
-.main__container {
+.main {
   display: flex;
   position: relative;
-  background-image: radial-gradient(circle, rgba(204,204,204,0.34637605042016806) 0%, rgba(0, 0, 0, 0.79) 80%), url('../../Assets/fond.webp');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
 
   @media screen and (max-width: 768px) {
     display: block;
   }
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(circle, rgba(204,204,204,0.34637605042016806) 0%, rgba(0, 0, 0, 0.79) 80%), url('../../Assets/fond.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex: 5;
+  min-height: 100vh;
 }

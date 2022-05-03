@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
-import EventFacebook from '../EventFacebook/EventFacebook';
+import EventFacebook from './EventFacebook/EventFacebook';
 import Main from '../Main/Main';
 import useWindowWidth from '../../hooks/useWindowWidth';
 import photo1 from '../../Assets/photo-homepage-1.webp';
 import photo2 from '../../Assets/photo-homepage-2.webp';
 import photo3 from '../../Assets/photo-homepage-3.webp';
-import Infos from '../Infos/Infos';
+import Infos from '../SideBar/Infos/Infos';
 
 import './homepage.scss';
 

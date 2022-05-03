@@ -1,5 +1,5 @@
 import React from 'react';
-import vynile from '../../Assets/Vynile.webp';
+import vynile from '../../../Assets/Vynile.webp';
 import './homepageevent.scss';
 
 function HomepageEvent() {

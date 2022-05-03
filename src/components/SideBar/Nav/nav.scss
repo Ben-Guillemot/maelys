@@ -21,14 +21,18 @@
   border-bottom: 2px solid #fff;
 
   :hover {
-    font-weight: bolder;
+    color: vars.$color;
     transition: all 0.2s;
   }
 
   &--active {
     color: vars.$color;
-    box-shadow: inset 3px 0 0 vars.$color;
+    box-shadow: inset 10px 0 0 vars.$color;
     border-bottom: 2px solid vars.$color;
   }
+}
+
+.nav-link p {
+  padding: 0.5rem;
 }
 

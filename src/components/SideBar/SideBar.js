@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import useWindowWidth from '../../hooks/useWindowWidth';
-import Header from '../Header/Header';
-import Nav from '../Nav/Nav';
-import Infos from '../Infos/Infos';
+import Header from './Header/Header';
+import Nav from './Nav/Nav';
+import Infos from './Infos/Infos';
 
 import './sideBar.scss';
 
