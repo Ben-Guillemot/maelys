@@ -8,9 +8,10 @@
   padding: 0.5rem 2rem;
   border-right: 1px solid #ccc;
 
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:768px) {
     flex-direction: row;
     position: sticky;
+    justify-content: center;
     border-right: none;
     border-bottom: 1px solid #ccc;
   }

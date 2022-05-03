@@ -7,6 +7,7 @@
   }
 
   &-logo {
+    position: relative;
     display: block;
     max-width: 70%;
     pointer-events: none;
@@ -29,9 +30,19 @@
   }
 
   &-menu-burger {
-    @media screen and (min-width:768px) {
+    position: absolute;
+    top: calc(50% - 60px/2);
+    left: 1rem;
+    background-color: #000;
+    border: none;
+
+    @media screen and (min-width:769px) {
       display: none;
     }
+  }
+
+  @media screen and (max-width:768px) {
+    margin-bottom: 0;
   }
 }
 
