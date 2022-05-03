@@ -1,2 +1,17 @@
 .cartePage__container {
+  max-width: 100%;
+  &-title {
+    margin: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+
+    @media screen and (max-width: 768px) {
+      margin: 3rem auto;
+      padding: 0.5rem;
+      font-size: 4.5rem;
+    }
+  }
+
 }

@@ -1,0 +1,32 @@
+.article {
+    flex: 4;
+    margin: 2rem;
+
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5rem;
+
+    &-description {
+      font-size: 1.5rem;
+      font-style: italic;
+
+      @media screen and (max-width: 768px) {
+        margin: 0.5rem auto;
+        font-size: 1rem;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      margin: 2rem auto 0.5rem;
+      font-size: 1.6rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0.5rem auto;
+  }
+  
+}
+
