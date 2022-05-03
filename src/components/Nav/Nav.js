@@ -1,28 +1,29 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './nav.scss';
 
 function Nav() {
   return (
-    <div className="nav__container">
-      <a href="*" className="nav-link">
+    <nav className="nav__container">
+      <NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? 'nav-link--active' : ''}`}>
         <p>Accueil</p>
-      </a>
-      <a href="*" className="nav-link">
+      </NavLink>
+      <NavLink to="/presentation" className={({ isActive }) => `nav-link ${isActive ? 'nav-link--active' : ''}`}>
         <p>Présentation</p>
-      </a>
-      <a href="*" className="nav-link">
+      </NavLink>
+      <NavLink to="/carte" className={({ isActive }) => `nav-link ${isActive ? 'nav-link--active' : ''}`}>
         <p>Notre Carte</p>
-      </a>
-      <a href="*" className="nav-link">
+      </NavLink>
+      <NavLink to="/evenements-concerts" className={({ isActive }) => `nav-link ${isActive ? 'nav-link--active' : ''}`}>
         <p>Evènements et concerts</p>
-      </a>
-      <a href="*" className="nav-link">
+      </NavLink>
+      <NavLink to="/galerie-photos" className={({ isActive }) => `nav-link ${isActive ? 'nav-link--active' : ''}`}>
         <p>Galerie photos</p>
-      </a>
-      <a href="*" className="nav-link">
+      </NavLink>
+      <NavLink to="/contact" className={({ isActive }) => `nav-link ${isActive ? 'nav-link--active' : ''}`}>
         <p>Nous contacter</p>
-      </a>
-    </div>
+      </NavLink>
+    </nav>
   );
 }
 
