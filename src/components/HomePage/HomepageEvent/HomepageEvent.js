@@ -1,22 +1,12 @@
 import React from 'react';
-import vynile from '../../../Assets/Vynile.webp';
+import ArticleEvent from './ArticleEvent/ArticleEvent';
 import './homepageevent.scss';
 
 function HomepageEvent() {
   return (
     <div className="homepageevent__container">
-      <article className="homepageevent__container-article">
-        <img src={vynile} className="homepageevent__container-article--vynile" alt="Vynile" />
-        <p>event1</p>
-      </article>
-      <article className="homepageevent__container-article">
-        <img src={vynile} className="homepageevent__container-article--vynile" alt="Vynile" />
-        <p>even2</p>
-      </article>
-      <article className="homepageevent__container-article">
-        <img src={vynile} className="homepageevent__container-article--vynile" alt="Vynile" />
-        <p>event3</p>
-      </article>
+      <h2 className="homepageevent__container-title">Evènements à venir</h2>
+      <ArticleEvent />
     </div>
   );
 }
