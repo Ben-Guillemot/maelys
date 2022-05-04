@@ -1,0 +1,36 @@
+@use 'src/styles/vars';
+
+.nav__mobile-container {
+  width: 80%;
+  margin: 10rem auto;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+
+  &-button {
+    margin: 1rem auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+  }
+
+  &-link {
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-bottom: 2px solid #fff;
+
+    &--active {
+      color: vars.$color;
+      box-shadow: inset 10px 0 0 vars.$color;
+      border-bottom: 2px solid vars.$color;
+    }
+  }
+}
