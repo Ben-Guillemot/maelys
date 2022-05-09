@@ -3,6 +3,7 @@ import useWindowWidth from '../../hooks/useWindowWidth';
 import Header from './Header/Header';
 import Nav from './Nav/Nav';
 import Infos from './Infos/Infos';
+import Footer from './Footer/Footer';
 
 import './sideBar.scss';
 
@@ -25,6 +26,7 @@ function Sidebar() {
       {mobileWidth ? (
         null
       ) : <Infos />}
+      <Footer />
     </div>
   );
 }

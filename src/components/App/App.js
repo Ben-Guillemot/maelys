@@ -6,6 +6,8 @@ import CartePage from '../CartePage/CartePage';
 import EventConcertPage from '../EventConcertPage/EventConcertPage';
 import PhotoPage from '../PhotoPage/PhotoPage';
 import ContactPage from '../ContactPage/ContactPage';
+import LoginPage from '../Admin/LoginPage/LoginPage';
+import AdminHomePage from '../Admin/AdminHomePage/AdminHomePage';
 
 function App() {
   return (
@@ -16,6 +18,11 @@ function App() {
       <Route path="/evenements-concerts" element={<EventConcertPage />} />
       <Route path="/galerie-photos" element={<PhotoPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/admin">
+        <Route path="login" element={<LoginPage />} />
+        <Route path="home" element={<AdminHomePage />} />
+      </Route>
+
     </Routes>
   );
 }
