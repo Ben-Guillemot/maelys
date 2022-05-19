@@ -26,7 +26,9 @@ function Sidebar() {
       {mobileWidth ? (
         null
       ) : <Infos />}
-      <Footer />
+      {mobileWidth ? (
+        null
+      ) : <Footer />}
     </div>
   );
 }
