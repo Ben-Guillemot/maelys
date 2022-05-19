@@ -24,8 +24,12 @@
       top: 0;
       right: 0;
       margin: 3rem;
-      width: 10%;
+      width: auto;
       height: 2rem;
+
+      @media (max-width: 768px) {
+        margin: 0.5rem;
+      }
     }
   }
 
